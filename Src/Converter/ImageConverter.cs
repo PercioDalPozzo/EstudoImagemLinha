@@ -29,23 +29,7 @@ public class ImageConverter
                 matriz.Add(x,y, pixelConverter.PixelToFator(pixelColor));
             }
         }
-        return matriz;        
-        
-        // var matriz = new Matriz(resolution);
-        //
-        // var controlador = new Controlador(_image.Height, _image.Width, resolution);
-        //
-        // for (int y = 0; y < controlador.NovoHeight; y++)
-        // {
-        //     var (yInicio, yFim) = controlador.GetY(y);
-        //     for (int x = 0; x < controlador.NovoWidth; x++)
-        //     {
-        //         var (xInicio, xFim) = controlador.GetX(x);
-        //         var pixelColor = BuildPixel(_image, yInicio, xInicio, yFim, xFim);
-        //         matriz.Add(x,y, pixelConverter.PixelToChar(pixelColor));
-        //     }
-        // }
-        // return matriz;
+        return matriz;   
     }
 
     private Rgba32 BuildPixel(Image<Rgba32> image, int yInicio, int xInicio, int yFim, int xFim)

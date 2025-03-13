@@ -6,17 +6,15 @@ using EstudoImagemLinha;
 
 class Program
 {
+    const string caminhoOrigem = "../../../../Eu.jpg";
     const int resolucao = 100;
-    const double saturacao = 0.2;
-    private const int tamanhoPixel = 10;
-    private const int intercalar = 10;
-    
-    
-    const string imagePath = "../../../../Eu.jpg";
+    const double saturacao = 0.5;
+    const int tamanhoPixel = 20;
+    const int intercalar = 0;
     
     static void Main()
     {
-        using (var image = Image.Load<Rgba32>(imagePath))
+        using (var image = Image.Load<Rgba32>(caminhoOrigem))
         {
             Converter(image);
         }
