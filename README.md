@@ -91,7 +91,7 @@ O arquivo convertido será salvo automaticamente no diretório do projeto.
 
 ## Exemplo de Saída
 
-- Imagem para conversão. Tamanho: **16.6MB** Resolução **287x266**  
+- Imagem para conversão. Tamanho: **16.6kb** Resolução **287x266**  
   ![Eu](eu.jpg)
 
 - **Imagem com 100% de resolução**, Saturação 0.2, Tamanho de pixel 10. Tamanho final: **6.06MB** Resolução final **2890x2680**
